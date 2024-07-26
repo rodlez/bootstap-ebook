@@ -1,0 +1,6 @@
+// Customization 
+
+// Change the hover color in the Contact Button Header Menu
+.navbar .btn-outline-light:hover {
+    color: var(--bs-dark);  // custom CSS variables include in bootstrap: https://getbootstrap.com/docs/5.0/customize/css-variables/
+}
