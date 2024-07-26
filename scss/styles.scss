@@ -4,3 +4,9 @@
 .navbar .btn-outline-light:hover {
     color: var(--bs-dark);  // custom CSS variables include in bootstrap: https://getbootstrap.com/docs/5.0/customize/css-variables/
 }
+
+// Background image in Header
+.header {
+    background: url(../images/header-background.jpg) center center no-repeat;
+    background-size: cover;
+}
