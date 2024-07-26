@@ -4,6 +4,15 @@
 .navbar .btn-outline-light:hover {
     color: var(--bs-dark);  // custom CSS variables include in bootstrap: https://getbootstrap.com/docs/5.0/customize/css-variables/
 }
+// Transition effect to fade out the navbar
+.navbar {
+    transition: all 0.5s ease-in-out;
+}
+// Make transparent and add a shadow to the navbar when scroll down
+.navbar-sticky {
+    opacity: 0.95;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
 
 // Background image in Header
 .header {
