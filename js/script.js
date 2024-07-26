@@ -17,4 +17,4 @@ function userScroll(startPixel, colorChange) {
 }
 
 // Once the DOM id loaded the userScroll will be executed
-document.addEventListener('DOMContentLoaded', userScroll(50, 'bg-dark'));
+document.addEventListener('DOMContentLoaded', userScroll(50, 'bg-primary'));
