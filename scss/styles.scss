@@ -20,6 +20,11 @@
     background-size: cover;
 }
 
+// Modal
+.modal-dialog {
+    max-width: 1040px;
+}
+
 // Media query to center image and text in the Header section
 @media(max-width: 1000px) {
     .hero .image-container {
